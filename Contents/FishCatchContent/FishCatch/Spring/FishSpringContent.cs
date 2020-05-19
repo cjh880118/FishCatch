@@ -1,9 +1,9 @@
-﻿using CellBig.Constants.FishCatch;
-using CellBig.UI.Event;
+﻿using JHchoi.Constants.FishCatch;
+using JHchoi.UI.Event;
 using System.Collections;
 using UnityEngine;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class FishSpringContent : ICatchFishContent
     {

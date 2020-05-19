@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-namespace CellBig
+namespace JHchoi
 {
     public static class AssetbundlesMenuItems
     {

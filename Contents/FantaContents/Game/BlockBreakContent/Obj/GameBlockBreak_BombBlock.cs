@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig;
-using CellBig.UI.Event;
-using CellBig.Contents.Event;
+using JHchoi;
+using JHchoi.UI.Event;
+using JHchoi.Contents.Event;
 
 public class GameBlockBreak_BombBlock : GameBlockBreak_Block
 {

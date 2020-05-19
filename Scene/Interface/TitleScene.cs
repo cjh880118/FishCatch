@@ -1,8 +1,8 @@
-﻿using CellBig.Models;
-using CellBig.UI;
+﻿using JHchoi.Models;
+using JHchoi.UI;
 using UnityEngine;
 
-namespace CellBig.Scene
+namespace JHchoi.Scene
 {
     public class TitleScene : IScene
     {

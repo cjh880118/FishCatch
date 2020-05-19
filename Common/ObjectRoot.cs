@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
-using CellBig.Contents.Event;
+using JHchoi.Contents.Event;
 using System.Collections.Generic;
 
 /// <summary>

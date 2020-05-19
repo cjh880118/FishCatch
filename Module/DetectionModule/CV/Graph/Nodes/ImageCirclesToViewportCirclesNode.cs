@@ -2,7 +2,7 @@
 using UnityEngine;
 using OpenCVForUnity;
 
-namespace CellBig.Module.Detection.CV
+namespace JHchoi.Module.Detection.CV
 {
     public class ImageCirclesToViewportCirclesNode : CVNodeBase<Output.ViewportCircles, List<Point>, List<Vector2>>
     {

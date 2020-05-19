@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
-using CellBig.UI.Event;
-using CellBig.Contents.Event;
-using CellBig.Models;
-using CellBig.Common;
+using JHchoi.UI.Event;
+using JHchoi.Contents.Event;
+using JHchoi.Models;
+using JHchoi.Common;
 using OpenCVForUnity;
 using System.Collections.Generic;
 using Rect = UnityEngine.Rect;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public abstract class IFantaBoxContent : IContent
     {

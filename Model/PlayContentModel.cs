@@ -1,13 +1,13 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections.Generic;
-using CellBig.Constants;
+using JHchoi.Constants;
 using System.Text;
 using System.IO;
-using CellBig.Scene;
+using JHchoi.Scene;
 
 
-namespace CellBig.Models
+namespace JHchoi.Models
 {
     public class PlayContentModel : Model
     {

@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Models;
-using CellBig.Module;
+using JHchoi.Models;
+using JHchoi.Module;
 
 public class SensorTest : MonoBehaviour
 {

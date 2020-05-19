@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using OpenCVForUnity;
 
-namespace CellBig.Module.Detection.CV
+namespace JHchoi.Module.Detection.CV
 {
     public class ImageContoursToImageQuadsNode : CVNodeBase<Output.ImageQuads, List<MatOfPoint>, List<Point>>
     {

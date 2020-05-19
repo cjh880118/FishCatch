@@ -3,12 +3,12 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig.Common;
-using CellBig.Models;
-using CellBig.Module;
+using JHchoi.Common;
+using JHchoi.Models;
+using JHchoi.Module;
 //using Microsoft.Win32;
 
-namespace CellBig.Scene
+namespace JHchoi.Scene
 {
 	public class SceneManager : MonoSingleton<SceneManager>
 	{

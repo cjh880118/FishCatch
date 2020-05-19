@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.T3;
+using JHchoi.T3;
 using System;
 
 public class T3SensorData
@@ -16,7 +16,7 @@ public class T3SensorData
     }
 }
 
-namespace CellBig.Module
+namespace JHchoi.Module
 {
 
     public class NewT3SensorModule : IModule

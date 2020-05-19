@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEngine.UI;
-using CellBig.Models;
-using CellBig.Common;
-using CellBig.UI.Event;
+using JHchoi.Models;
+using JHchoi.Common;
+using JHchoi.UI.Event;
 
 public class SavePopupDialog : MonoBehaviour
 {

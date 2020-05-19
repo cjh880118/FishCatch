@@ -3,11 +3,11 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig.Common;
+using JHchoi.Common;
 using System;
 
 
-namespace CellBig.Module
+namespace JHchoi.Module
 {
 	public class ModuleManager : MonoSingleton<ModuleManager>
 	{

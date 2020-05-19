@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig.Models;
-using CellBig.Contents.Event;
-using CellBig.UI.Event;
+using JHchoi.Models;
+using JHchoi.Contents.Event;
+using JHchoi.UI.Event;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
 	public class FishLoadContent : IContent
 	{
@@ -28,7 +28,7 @@ namespace CellBig.Contents
 
         IEnumerator StartContent()
         {
-            Message.Send<CellBig.UI.Event.LoadImageChangeMsg>(new LoadImageChangeMsg());
+            Message.Send<JHchoi.UI.Event.LoadImageChangeMsg>(new LoadImageChangeMsg());
             Message.Send<FadeInMsg>(new FadeInMsg());
             yield return new WaitForSeconds(0.5f);
             var pcm = Model.First<PlayContentModel>();

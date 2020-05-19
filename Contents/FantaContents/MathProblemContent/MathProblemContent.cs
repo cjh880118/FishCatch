@@ -4,13 +4,13 @@ using UnityEngine.EventSystems;
 
 using System.Collections.Generic;
 
-using CellBig.Constants;
-using CellBig.Models;
-using CellBig.UI.Event;
-using CellBig.Module;
-using CellBig.Contents.Event;
+using JHchoi.Constants;
+using JHchoi.Models;
+using JHchoi.UI.Event;
+using JHchoi.Module;
+using JHchoi.Contents.Event;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
 	public class MathProblemContent : IFantaBoxContent
     {

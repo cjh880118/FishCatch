@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using CellBig.Contents.Event;
+using JHchoi.Contents.Event;
 
 public class GameSlideSnow_ObjectControl : MonoBehaviour
 {

@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Contents.Event;
+using JHchoi.Contents.Event;
 
 public class GameSlimeSlimeObj : MonoBehaviour
 {
@@ -211,7 +211,7 @@ public class GameSlimeSlimeObj : MonoBehaviour
 
     public void Die()
     {
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Slime_Die);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Slime_Die);
         if (m_pCor != null)
         {
             StopCoroutine(m_pCor);
@@ -233,7 +233,7 @@ public class GameSlimeSlimeObj : MonoBehaviour
     {
         m_pSprite.ChangePlaying("Die");
         m_pCollider.enabled = false;
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Slime_Die);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Slime_Die);
 
         Slime.CheckCreate();
         
@@ -263,7 +263,7 @@ public class GameSlimeSlimeObj : MonoBehaviour
                         nScore = 300;
                         break;
                 }
-                Message.Send<CellBig.UI.Event.ADDScore>(new CellBig.UI.Event.ADDScore(100));
+                Message.Send<JHchoi.UI.Event.ADDScore>(new JHchoi.UI.Event.ADDScore(100));
                 FXCreate(DieFx);
                 break;
             }

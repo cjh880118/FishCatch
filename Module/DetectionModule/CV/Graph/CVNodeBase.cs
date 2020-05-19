@@ -1,6 +1,6 @@
-﻿using CellBig.Models;
+﻿using JHchoi.Models;
 
-namespace CellBig.Module.Detection.CV
+namespace JHchoi.Module.Detection.CV
 {
     public abstract class CVNodeBase<TMessage, TInput, TOutput> : DetectionNodeBase<TMessage, TInput, TOutput>
         where TMessage : OutputMessageBase<TOutput>, new()

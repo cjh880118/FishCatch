@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using CellBig.Contents.Event;
+using JHchoi.Contents.Event;
 using System;
 
 public class GamePictureObj : MonoBehaviour
@@ -153,7 +153,7 @@ public class GamePictureObj : MonoBehaviour
             }
         }
         m_nCurrMaxBlock = nRI;
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Picture_BubbleInit);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Picture_BubbleInit);
         
 
         return;

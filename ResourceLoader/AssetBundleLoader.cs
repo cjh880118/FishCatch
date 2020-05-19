@@ -3,11 +3,11 @@ using UnityEditor;
 #endif
 using UnityEngine;
 using System.Collections;
-using CellBig;
-using CellBig.Common;
+using JHchoi;
+using JHchoi.Common;
 
 
-namespace CellBig
+namespace JHchoi
 {
 	public sealed class AssetBundleLoader : MonoSingleton<AssetBundleLoader>
 	{

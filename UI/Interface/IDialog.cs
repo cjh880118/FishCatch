@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
 	public class IDialog : MonoBehaviour
 	{

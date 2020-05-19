@@ -1,10 +1,10 @@
-﻿using CellBig.UI.Event;
+﻿using JHchoi.UI.Event;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
     public class OXDialog : IDialog
     {

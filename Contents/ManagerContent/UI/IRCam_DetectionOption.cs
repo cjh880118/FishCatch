@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Module;
-using CellBig.Module.Detection;
-using CellBig.Module.Detection.CV;
+using JHchoi.Module;
+using JHchoi.Module.Detection;
+using JHchoi.Module.Detection.CV;
 
 public class IRCam_DetectionOption : MonoBehaviour
 {
@@ -28,14 +28,14 @@ public class IRCam_DetectionOption : MonoBehaviour
     
     private void OnEnable()
     {
-        Message.AddListener<CellBig.UI.Event.OptionReset>(ResetOption);
+        Message.AddListener<JHchoi.UI.Event.OptionReset>(ResetOption);
         if (!isSet)
             StartCoroutine(UiSet());
     }
 
     private void OnDisable()
     {
-        Message.RemoveListener<CellBig.UI.Event.OptionReset>(ResetOption);
+        Message.RemoveListener<JHchoi.UI.Event.OptionReset>(ResetOption);
     }
 
     IEnumerator UiSet()
@@ -218,7 +218,7 @@ public class IRCam_DetectionOption : MonoBehaviour
         }
     }
 
-    public void ResetOption(CellBig.UI.Event.OptionReset msg)
+    public void ResetOption(JHchoi.UI.Event.OptionReset msg)
     {
        setting.ErodeSize= _ErodeSize;
        setting.ErodeIterations= _ErodeIterations;

@@ -1,19 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
-using CellBig.Models;
-using CellBig;
-using CellBig.UI.Event;
-using CellBig.Contents.Event;
-using CellBig.Common;
+using JHchoi.Models;
+using JHchoi;
+using JHchoi.UI.Event;
+using JHchoi.Contents.Event;
+using JHchoi.Common;
 using DG.Tweening;
 using System.Collections.Generic;
-using CellBig.Module;
-using CellBig.Constants;
+using JHchoi.Module;
+using JHchoi.Constants;
 using DG.Tweening;
 using Rect = UnityEngine.Rect;
 using OpenCVForUnity;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class GameShooterContent : IFantaBoxContent
     {

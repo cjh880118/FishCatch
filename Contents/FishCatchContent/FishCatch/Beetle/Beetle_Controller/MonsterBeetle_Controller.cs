@@ -1,10 +1,10 @@
-﻿using CellBig.UI.Event;
+﻿using JHchoi.UI.Event;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
-using CellBig;
-using CellBig.Constants.FishCatch;
+using JHchoi;
+using JHchoi.Constants.FishCatch;
 
 public class MonsterBeetle_Controller : IFish
 {

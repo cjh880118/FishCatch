@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
-using CellBig.Models;
-using CellBig.Constants;
-using CellBig.Contents;
-using CellBig.UI.Event;
+using JHchoi.Models;
+using JHchoi.Constants;
+using JHchoi.Contents;
+using JHchoi.UI.Event;
 
-namespace CellBig.Scene
+namespace JHchoi.Scene
 {
 	public class UangelInGameScene : IScene
 	{

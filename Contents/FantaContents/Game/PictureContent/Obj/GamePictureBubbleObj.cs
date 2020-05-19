@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using CellBig.Contents.Event;
+using JHchoi.Contents.Event;
 
 public class GamePictureBubbleObj : Object_Root
 {
@@ -136,7 +136,7 @@ public class GamePictureBubbleObj : Object_Root
         }
 
         yield return null;
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Picture_Boom);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Picture_Boom);
         yield return null;
         m_pMng.Freeze(m_nX, m_nY);
         this.gameObject.SetActive(false);
@@ -167,7 +167,7 @@ public class GamePictureBubbleObj : Object_Root
     {
         if (m_bFreeze == true)
         {
-            CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Picture_IceHIt);
+            JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Picture_IceHIt);
 
             if (m_nHp == 1)
             {
@@ -193,12 +193,12 @@ public class GamePictureBubbleObj : Object_Root
         if (m_bLife == false) return;
         if (bActive == false) return;
 
-        Message.Send<CellBig.UI.Event.ADDScore>(new CellBig.UI.Event.ADDScore(100));
+        Message.Send<JHchoi.UI.Event.ADDScore>(new JHchoi.UI.Event.ADDScore(100));
         m_bLife = false;
 
         if (m_bBoom == true)
         {
-            CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Pictrue_BoomHit);
+            JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Pictrue_BoomHit);
             StopCoroutine("Cor_BoomTimer");
             Message.Send<GameObjectDeActiveMessage>(new GameObjectDeActiveMessage(currentPictureNum, this.gameObject));
 
@@ -207,7 +207,7 @@ public class GamePictureBubbleObj : Object_Root
         }
         else
         {
-            CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Picture_Hit);
+            JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Picture_Hit);
             m_pAni_Bubble.SetTrigger("BANG");
             StartCoroutine("Cor_Die");
             FXCreate(BubblePop);

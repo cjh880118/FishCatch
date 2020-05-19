@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using CellBig.UI;
+using JHchoi.UI;
 
-namespace CellBig.Module
+namespace JHchoi.Module
 {
 	public class BaseCameraModule : IModule
     {

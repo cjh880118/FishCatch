@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using CellBig.Contents;
+using JHchoi.Contents;
 
 
-namespace CellBig.UI.Event
+namespace JHchoi.UI.Event
 {
     public class StartClickMsg : Message
     {

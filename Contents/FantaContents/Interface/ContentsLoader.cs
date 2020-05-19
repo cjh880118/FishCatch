@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig;
-using CellBig.Common;
+using JHchoi;
+using JHchoi.Common;
 
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
 	public class ContentsLoader : MonoSingleton<ContentsLoader>
 	{

@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-namespace CellBig.Tool
+namespace JHchoi.Tool
 {
 	[ExecuteInEditMode]
 	public class AutoDestroyEmptyObject : MonoBehaviour

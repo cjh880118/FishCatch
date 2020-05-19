@@ -73,7 +73,7 @@ public class IOpenCV : MonoBehaviour
             //{
             //    Debug.LogWarning("============ rect : " + item + "\n--------------------------------------min :  " + item.min + "_max : " + item.max);
             //}
-            Message.Send<CellBig.Contents.Event.TouchRectMsg>(new CellBig.Contents.Event.TouchRectMsg(rects));
+            Message.Send<JHchoi.Contents.Event.TouchRectMsg>(new JHchoi.Contents.Event.TouchRectMsg(rects));
         }
 
         return true;

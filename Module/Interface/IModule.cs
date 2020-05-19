@@ -2,10 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
-using CellBig.Contents;
+using JHchoi.Contents;
 
 
-namespace CellBig.Module
+namespace JHchoi.Module
 {
 	public abstract class IModule : MonoBehaviour
 	{

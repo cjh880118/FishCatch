@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace CellBig.Models
+namespace JHchoi.Models
 {
     public class FishModel : Model
     {

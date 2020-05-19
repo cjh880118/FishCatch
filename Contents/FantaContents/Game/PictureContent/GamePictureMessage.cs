@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CellBig.Contents.Event
+namespace JHchoi.Contents.Event
 {
     public class PictureBubbleCreateMsg : Message
     {

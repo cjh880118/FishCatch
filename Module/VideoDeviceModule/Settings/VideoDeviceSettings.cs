@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace CellBig.Module.VideoDevice
+namespace JHchoi.Module.VideoDevice
 {
     [Serializable]
     public class VideoDeviceSettings

@@ -1,6 +1,6 @@
 ﻿
 
-namespace CellBig.Scene
+namespace JHchoi.Scene
 {
 	public class UangelLobbyScene : IScene
 	{

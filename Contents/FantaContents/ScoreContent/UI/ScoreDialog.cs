@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-using CellBig.UI.Event;
-using CellBig.Common;
+using JHchoi.UI.Event;
+using JHchoi.Common;
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
     public class ScoreDialog : IDialog
     {

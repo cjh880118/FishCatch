@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using CellBig.Module.VideoDevice;
+using JHchoi.Module.VideoDevice;
 using OpenCVForUnity;
 
 public class ConnectionTest : MonoBehaviour

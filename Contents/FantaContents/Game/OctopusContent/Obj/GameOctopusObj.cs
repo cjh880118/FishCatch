@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.UI.Event;
-using CellBig.Contents.Event;
+using JHchoi.UI.Event;
+using JHchoi.Contents.Event;
 
 public class GameOctopusObj : MonoBehaviour
 {
@@ -102,7 +102,7 @@ public class GameOctopusObj : MonoBehaviour
     {
         m_pCollider.enabled = false;
         m_bLife = false;
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Octopus_Shit);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Octopus_Shit);
         m_pAni_Char.Play("attack");
         yield return new WaitForSeconds(0.1f);
         Message.Send<OctopusShitCreateMsg>(new OctopusShitCreateMsg(transform.position));
@@ -152,7 +152,7 @@ public class GameOctopusObj : MonoBehaviour
             StopCoroutine(m_pCor);
             m_pCor = null;
         }
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Octopus_Hit);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Octopus_Hit);
         m_pCor = StartCoroutine("Cor_Hit");
         Message.Send<ADDScore>(new ADDScore(100));
     }

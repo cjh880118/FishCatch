@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using CellBig;
-using CellBig.Contents.Event;
+using JHchoi;
+using JHchoi.Contents.Event;
 
 using DG.Tweening;
 

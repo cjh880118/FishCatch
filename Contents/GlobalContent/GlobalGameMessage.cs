@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
-using CellBig.Constants;
+using JHchoi.Constants;
 using System.Collections.Generic;
 
-namespace CellBig.Contents.Event
+namespace JHchoi.Contents.Event
 {
     // 게임 공통 이벤트
     public class GameObjectDeActiveMessage : Message // 콘텐츠에서 오브젝트가 삭제될떄 풀에서도 삭제하기위한 메세지입니다.

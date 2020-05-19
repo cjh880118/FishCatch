@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.UI.Event;
-using CellBig;
+using JHchoi.UI.Event;
+using JHchoi;
 
 public class ReadyAniEvent : MonoBehaviour
 {

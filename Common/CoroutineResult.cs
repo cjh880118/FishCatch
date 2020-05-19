@@ -1,4 +1,4 @@
-﻿namespace CellBig.Common
+﻿namespace JHchoi.Common
 {
 	public class CoroutineResult<T>
 	{

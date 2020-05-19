@@ -1,15 +1,15 @@
-﻿using CellBig.Models;
-using CellBig.Module.Detection.CV.Output;
-using CellBig.UI.Event;
+﻿using JHchoi.Models;
+using JHchoi.Module.Detection.CV.Output;
+using JHchoi.UI.Event;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 using Random = UnityEngine.Random;
-using CellBig.Constants.FishCatch;
+using JHchoi.Constants.FishCatch;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public abstract class IFish_Controller : MonoBehaviour
     {

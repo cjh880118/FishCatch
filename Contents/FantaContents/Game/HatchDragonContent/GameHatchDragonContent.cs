@@ -3,13 +3,13 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-using CellBig.Models;
-using CellBig;
-using CellBig.UI.Event;
-using CellBig.Contents.Event;
-using CellBig.Common;
-using CellBig.Module;
-using CellBig.Constants;
+using JHchoi.Models;
+using JHchoi;
+using JHchoi.UI.Event;
+using JHchoi.Contents.Event;
+using JHchoi.Common;
+using JHchoi.Module;
+using JHchoi.Constants;
 
 using DG.Tweening;
 using Rect = UnityEngine.Rect;
@@ -24,7 +24,7 @@ public enum HatchDragonColorType
     Yellow,
 }
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class GameHatchDragonContent : IFantaBoxContent
     {

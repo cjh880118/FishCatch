@@ -12,7 +12,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace CellBig.Common
+namespace JHchoi.Common
 {
 	public class ObjectPool : MonoBehaviour
 	{

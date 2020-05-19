@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     public class DetectionInfoModel : Model
     {

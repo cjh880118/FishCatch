@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CellBig.Module.VideoDevice
+namespace JHchoi.Module.VideoDevice
 {
     public class UnityCam : IVideoDevice
     {

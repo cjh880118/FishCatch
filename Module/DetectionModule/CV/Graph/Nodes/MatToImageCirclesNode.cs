@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using OpenCVForUnity;
 
-namespace CellBig.Module.Detection.CV
+namespace JHchoi.Module.Detection.CV
 {
     public class MatToImageCircles : CVNodeBase<Output.ImageCircles, Mat, List<OpenCVForUnity.Point>>
     {

@@ -10,7 +10,7 @@
 using UnityEngine;
 
 
-namespace CellBig.Common
+namespace JHchoi.Common
 {
 	public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
 	{

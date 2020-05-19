@@ -2,9 +2,9 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig.Contents;
+using JHchoi.Contents;
 
-namespace CellBig.Module
+namespace JHchoi.Module
 {
     public class UICamera : MonoBehaviour
     {

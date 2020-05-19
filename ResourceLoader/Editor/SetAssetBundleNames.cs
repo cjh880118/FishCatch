@@ -3,7 +3,7 @@ using UnityEditor;
 using System.IO;
 
 
-namespace CellBig
+namespace JHchoi
 {
     public class SetAssetBundleNames
     {

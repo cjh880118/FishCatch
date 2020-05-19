@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using CellBig.Models;
+using JHchoi.Models;
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
     public class ScreenLobbyDialog : IDialog
     {

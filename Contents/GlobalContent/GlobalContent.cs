@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig.Models;
-using CellBig.Contents.Event;
-using CellBig.UI.Event;
+using JHchoi.Models;
+using JHchoi.Contents.Event;
+using JHchoi.UI.Event;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
 	public class GlobalContent : IContent
 	{

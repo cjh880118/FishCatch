@@ -2,12 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
-using CellBig.Constants;
-using CellBig.Contents.Event;
-using CellBig.UI.Event;
+using JHchoi.Constants;
+using JHchoi.Contents.Event;
+using JHchoi.UI.Event;
 
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
 	public class LobbyContent : IContent
 	{

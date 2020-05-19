@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Contents.Event;
+using JHchoi.Contents.Event;
 
 public class GameSlimeSlime : MonoBehaviour
 {
@@ -57,7 +57,7 @@ public class GameSlimeSlime : MonoBehaviour
         StartCoroutine(PlaySlime());
     }
 
-    public void SetupList(CellBig.Common.ObjectPool objpool)
+    public void SetupList(JHchoi.Common.ObjectPool objpool)
     {
         for (int i = 0; i < objpool.transform.childCount; i++)
             PoolObject.Add(objpool.transform.GetChild(i).gameObject);
@@ -245,7 +245,7 @@ public class GameSlimeSlime : MonoBehaviour
     IEnumerator Cor_MoveSound()
     {
         m_bMoveSound = true;
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Slime_Jump);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Slime_Jump);
         yield return new WaitForSeconds(0.2f);
         m_bMoveSound = false;
         yield return null;

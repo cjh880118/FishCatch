@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
-using CellBig.Contents;
-using CellBig.Constants;
+using JHchoi.Contents;
+using JHchoi.Constants;
 using System;
 
 using UnityEngine;
 
-namespace CellBig.UI.Event
+namespace JHchoi.UI.Event
 {
     public class GameModeClickMsg : Message
     {

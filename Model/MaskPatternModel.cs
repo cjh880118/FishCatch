@@ -1,11 +1,11 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections.Generic;
-using CellBig.Constants;
+using JHchoi.Constants;
 using System.Text;
 using System.IO;
 
-namespace CellBig.Models
+namespace JHchoi.Models
 {
     public class MaskPatternInfo
     {

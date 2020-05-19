@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CellBig.Constants
+namespace JHchoi.Constants
 {
     public enum LocalizingType
     {

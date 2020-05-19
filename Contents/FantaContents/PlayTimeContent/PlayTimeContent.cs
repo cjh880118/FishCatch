@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
-using CellBig.Models;
-using CellBig;
-using CellBig.UI.Event;
-using CellBig.Contents.Event;
+using JHchoi.Models;
+using JHchoi;
+using JHchoi.UI.Event;
+using JHchoi.Contents.Event;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
 	public class PlayTimeContent : IContent
 	{

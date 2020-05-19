@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 
-namespace CellBig.UI.Event
+namespace JHchoi.UI.Event
 {
 	public class AddDialogMsg : Message
 	{

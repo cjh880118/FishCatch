@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace CellBig.Models
+namespace JHchoi.Models
 {
     public class FantaBoxSettingModel : Model
     {

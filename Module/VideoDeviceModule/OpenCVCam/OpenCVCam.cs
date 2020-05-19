@@ -3,7 +3,7 @@ using System.Runtime.InteropServices;
 using UnityEngine;
 using OpenCVForUnity;
 
-namespace CellBig.Module.VideoDevice
+namespace JHchoi.Module.VideoDevice
 {
     public class OpenCVCam : IVideoDevice
     {

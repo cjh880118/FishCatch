@@ -1,8 +1,8 @@
 ﻿using System;
 using UnityEngine;
-using CellBig.Module.Detection.CV;
+using JHchoi.Module.Detection.CV;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     [Serializable]
     public class DetectionSettings

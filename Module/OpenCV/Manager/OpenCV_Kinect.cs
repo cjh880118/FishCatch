@@ -5,7 +5,7 @@ using OpenCVForUnity;
 using System.Collections.Generic;
 using System.Threading;
 using System;
-using CellBig.Models;
+using JHchoi.Models;
 
 /// <summary>
 /// 키넥트 클래스

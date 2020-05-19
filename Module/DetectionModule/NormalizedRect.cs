@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     [Serializable]
     public struct NormalizedPoint

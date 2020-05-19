@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
-using CellBig.Constants;
+using JHchoi.Constants;
 using System.Collections.Generic;
 
-namespace CellBig.Contents.Event
+namespace JHchoi.Contents.Event
 {
     public class AirBorneInitMsg : Message { }
 }

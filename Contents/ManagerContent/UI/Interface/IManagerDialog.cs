@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using CellBig.Models;
-using CellBig.Common;
+using JHchoi.Models;
+using JHchoi.Common;
 
-namespace CellBig.UI.Event
+namespace JHchoi.UI.Event
 {
     public class ContentListChange : Message
     {
@@ -30,7 +30,7 @@ namespace CellBig.UI.Event
     }
 }
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
     public class IManagerDialog : IDialog
     {

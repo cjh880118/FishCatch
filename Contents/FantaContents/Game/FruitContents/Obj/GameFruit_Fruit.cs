@@ -5,9 +5,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-using CellBig;
-using CellBig.UI.Event;
-using CellBig.Contents.Event;
+using JHchoi;
+using JHchoi.UI.Event;
+using JHchoi.Contents.Event;
 
 public class GameFruit_Fruit : MonoBehaviour
 {

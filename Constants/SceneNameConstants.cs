@@ -1,4 +1,4 @@
-﻿namespace CellBig.Constants
+﻿namespace JHchoi.Constants
 {
 	public static class SceneConstants
 	{

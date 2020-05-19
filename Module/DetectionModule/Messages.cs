@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     public abstract class OutputMessageBase<T> : Message
     {

@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-namespace CellBig
+namespace JHchoi
 {
 	public abstract class AssetBundleLoadOperation : IEnumerator
 	{

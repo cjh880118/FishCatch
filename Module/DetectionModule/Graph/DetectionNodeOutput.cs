@@ -1,5 +1,5 @@
 ﻿
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     public readonly struct DetectionNodeOutput<T>
     {

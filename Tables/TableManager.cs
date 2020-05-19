@@ -4,12 +4,12 @@ using UnityEngine;
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig;
-using CellBig.Common;
+using JHchoi;
+using JHchoi.Common;
 using System.IO;
 
 
-namespace CellBig
+namespace JHchoi
 {
     public class TableManager : MonoSingleton<TableManager>
     {

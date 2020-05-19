@@ -1,6 +1,6 @@
-﻿using CellBig.Constants.FishCatch;
+﻿using JHchoi.Constants.FishCatch;
 using UnityEngine;
-using CellBig.UI.Event;
+using JHchoi.UI.Event;
 
 public class DessertBackGroundObject : ITycoonBackGroundObject
 {

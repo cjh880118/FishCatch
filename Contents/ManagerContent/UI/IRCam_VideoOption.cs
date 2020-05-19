@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Module.VideoDevice;
+using JHchoi.Module.VideoDevice;
 
 public class IRCam_VideoOption : MonoBehaviour
 {
@@ -23,7 +23,7 @@ public class IRCam_VideoOption : MonoBehaviour
     
     private void OnEnable()
     {
-        Message.AddListener<CellBig.UI.Event.OptionReset>(ResetOption);
+        Message.AddListener<JHchoi.UI.Event.OptionReset>(ResetOption);
         if (!isSet)
             StartCoroutine(UiSet());
     }
@@ -31,7 +31,7 @@ public class IRCam_VideoOption : MonoBehaviour
     private void OnDisable()
     {
         isSet = false;
-        Message.RemoveListener<CellBig.UI.Event.OptionReset>(ResetOption);
+        Message.RemoveListener<JHchoi.UI.Event.OptionReset>(ResetOption);
     }
 
     IEnumerator UiSet()
@@ -157,7 +157,7 @@ public class IRCam_VideoOption : MonoBehaviour
         }
     }
 
-    public void ResetOption(CellBig.UI.Event.OptionReset msg)
+    public void ResetOption(JHchoi.UI.Event.OptionReset msg)
     {
         setting.FlipX = FlipX;
         setting.FlipY = FlipY;

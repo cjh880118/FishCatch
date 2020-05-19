@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-using CellBig;
+using JHchoi;
 
 public class GameSlideLAVA_ObjectControl : MonoBehaviour
 {

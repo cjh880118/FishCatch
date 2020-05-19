@@ -2,10 +2,10 @@
 using System.Collections;
 using OpenCVForUnity;
 using System.Collections.Generic;
-using CellBig.Common;
-using CellBig.Module;
-using CellBig.Constants;
-using CellBig.Models;
+using JHchoi.Common;
+using JHchoi.Module;
+using JHchoi.Constants;
+using JHchoi.Models;
 /// <summary>
 /// OpenCV 관련 관리하는 Mng
 /// WebCam이나 Kinect의 영상정보 및 데이터를 편하게 사용할 수 있게됨

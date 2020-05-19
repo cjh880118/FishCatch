@@ -3,9 +3,9 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using OpenCVForUnity;
-using CellBig.Module.VideoDevice;
+using JHchoi.Module.VideoDevice;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     public class DebugViewer : MonoBehaviour
     {

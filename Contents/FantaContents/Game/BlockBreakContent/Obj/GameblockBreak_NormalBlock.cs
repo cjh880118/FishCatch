@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig;
-using CellBig.UI.Event;
+using JHchoi;
+using JHchoi.UI.Event;
 
 public class GameblockBreak_NormalBlock : GameBlockBreak_Block
 {

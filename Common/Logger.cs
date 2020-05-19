@@ -78,7 +78,7 @@ using UnityEngine;
 //#endif
 
 
-namespace CellBig.Common
+namespace JHchoi.Common
 {
 	public class Logger : MonoSingleton<Logger>
 	{

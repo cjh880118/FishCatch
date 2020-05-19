@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Diagnostics;
 using UnityEngine;
-using CellBig.Module.VideoDevice;
-using CellBig.Models;
+using JHchoi.Module.VideoDevice;
+using JHchoi.Models;
 
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     [RequireComponent(typeof(SettingsManager))]
     public class DetectionModule : IModule

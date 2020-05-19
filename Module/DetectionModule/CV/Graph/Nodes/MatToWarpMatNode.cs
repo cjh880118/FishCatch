@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using OpenCVForUnity;
 
-namespace CellBig.Module.Detection.CV
+namespace JHchoi.Module.Detection.CV
 {
     public class MatToWarpMatNode : CVNodeBase<Output.WarpMat, Mat, Mat>
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 using UnityEngine;
-using CellBig.Models;
+using JHchoi.Models;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     public class SettingsManager : MonoBehaviour
     {

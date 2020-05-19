@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig;
-using CellBig.Models;
+using JHchoi;
+using JHchoi.Models;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class ManagerContent : IContent
     {

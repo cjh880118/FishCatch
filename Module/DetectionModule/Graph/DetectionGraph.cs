@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Collections.Concurrent;
 using UnityEngine;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     public class DetectionGraph : IGraph
     {

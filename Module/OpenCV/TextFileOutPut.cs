@@ -2,7 +2,7 @@
 using System.IO;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Common;
+using JHchoi.Common;
 
 // 프로그램 종료시 텍스트 파일 연결
 public class TextFileOutPut : MonoSingleton<TextFileOutPut>

@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Text.RegularExpressions;
 using System.IO;
 
-namespace CellBig
+namespace JHchoi
 {
     public class PatternTableReader : MonoBehaviour
     {

@@ -2,7 +2,7 @@
 using System.Runtime.InteropServices;
 using UnityEngine;
 
-namespace CellBig.Module.VideoDevice
+namespace JHchoi.Module.VideoDevice
 {
     public class UQ3388 : IVideoDevice
     {

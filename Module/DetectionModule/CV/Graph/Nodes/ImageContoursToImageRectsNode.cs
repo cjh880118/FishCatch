@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using OpenCVForUnity;
 
-namespace CellBig.Module.Detection.CV
+namespace JHchoi.Module.Detection.CV
 {
     public class ImageContoursToImageRectsNode : CVNodeBase<Output.ImageRects, List<MatOfPoint>, List<OpenCVForUnity.Rect>>
     {

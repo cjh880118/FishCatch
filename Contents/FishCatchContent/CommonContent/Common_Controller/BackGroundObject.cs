@@ -1,7 +1,7 @@
-﻿using CellBig;
-using CellBig.Common;
-using CellBig.Constants.FishCatch;
-using CellBig.UI.Event;
+﻿using JHchoi;
+using JHchoi.Common;
+using JHchoi.Constants.FishCatch;
+using JHchoi.UI.Event;
 using System;
 using System.Collections;
 using System.Collections.Generic;

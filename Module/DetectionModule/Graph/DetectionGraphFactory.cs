@@ -1,6 +1,6 @@
-﻿using CellBig.Module.Detection.CV;
+﻿using JHchoi.Module.Detection.CV;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     public static class DetectionGraphFactory
     {

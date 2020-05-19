@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
-using CellBig.Contents.Event;
+using JHchoi.Contents.Event;
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
     public class KioskGlobalDialog : IDialog
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace CellBig.Module.VideoDevice
+namespace JHchoi.Module.VideoDevice
 {
     public class VideoDeviceInfoModel : Model
     {

@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
-using CellBig.Constants;
-using CellBig.Models;
-using CellBig.UI.Event;
-using CellBig.Contents.Event;
+using JHchoi.Constants;
+using JHchoi.Models;
+using JHchoi.UI.Event;
+using JHchoi.Contents.Event;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
 	public class TitleContent : IContent
 	{

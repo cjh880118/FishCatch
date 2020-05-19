@@ -1,10 +1,10 @@
-﻿using CellBig.Constants;
-using CellBig.Constants.FishCatch;
+﻿using JHchoi.Constants;
+using JHchoi.Constants.FishCatch;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CellBig.Models
+namespace JHchoi.Models
 {
     public class CommonModel : Model
     {

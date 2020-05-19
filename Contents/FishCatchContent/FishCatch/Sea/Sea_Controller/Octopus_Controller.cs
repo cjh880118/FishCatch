@@ -1,6 +1,6 @@
-﻿using CellBig;
-using CellBig.Constants.FishCatch;
-using CellBig.UI.Event;
+﻿using JHchoi;
+using JHchoi.Constants.FishCatch;
+using JHchoi.UI.Event;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

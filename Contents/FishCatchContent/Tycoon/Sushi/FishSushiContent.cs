@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
-using CellBig.Constants.FishCatch;
+using JHchoi.Constants.FishCatch;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class FishSushiContent : ITycoonContent
     {

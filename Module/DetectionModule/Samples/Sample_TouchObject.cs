@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CellBig.Module.Detection.Samples
+namespace JHchoi.Module.Detection.Samples
 {
     public class Sample_TouchObject : MonoBehaviour
     {

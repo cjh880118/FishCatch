@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CellBig.T3
+namespace JHchoi.T3
 {
     public class T3SensorCatchMsg : Message
     {

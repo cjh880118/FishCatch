@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // UI Message를 모아놈
-namespace CellBig.UI.Event
+namespace JHchoi.UI.Event
 {
     // Timer
     // 타이머 시작

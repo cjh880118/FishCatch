@@ -2,9 +2,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig.UI;
+using JHchoi.UI;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
 	public class IContentUILoader : MonoBehaviour
 	{

@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
-using CellBig.Contents;
-using CellBig.Constants;
-using CellBig.Models;
+using JHchoi.Contents;
+using JHchoi.Constants;
+using JHchoi.Models;
 
-namespace CellBig.UI.Event
+namespace JHchoi.UI.Event
 {
     public class MathProblemDialogInfoMsg : Message
     {

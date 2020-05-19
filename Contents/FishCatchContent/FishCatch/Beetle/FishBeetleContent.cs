@@ -1,12 +1,12 @@
-﻿using CellBig.Constants;
-using CellBig.Constants.FishCatch;
-using CellBig.UI.Event;
+﻿using JHchoi.Constants;
+using JHchoi.Constants.FishCatch;
+using JHchoi.UI.Event;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class FishBeetleContent : ICatchFishContent
     {

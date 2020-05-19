@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CellBig.Scene
+namespace JHchoi.Scene
 {
     public class FishCatchScene : IScene
     {

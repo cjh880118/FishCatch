@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Constants;
-using CellBig.Constants.FishCatch;
+using JHchoi.Constants;
+using JHchoi.Constants.FishCatch;
 
 public class FishCatchPlayer : IPlayer
 {

@@ -1,6 +1,6 @@
 ﻿
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
 	public class GlobalContentUILoader : IContentUILoader
 	{

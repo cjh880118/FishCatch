@@ -3,11 +3,11 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig.Common;
+using JHchoi.Common;
 using DG.Tweening;
-using CellBig.Models;
+using JHchoi.Models;
 
-namespace CellBig
+namespace JHchoi
 {
 
 

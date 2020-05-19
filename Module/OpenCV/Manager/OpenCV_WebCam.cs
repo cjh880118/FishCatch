@@ -2,7 +2,7 @@
 using System.Collections;
 using OpenCVForUnity;
 using System.Collections.Generic;
-using CellBig.Models;
+using JHchoi.Models;
 
 public class OpenCV_WebCam : IOpenCV
 {

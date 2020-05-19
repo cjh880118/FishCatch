@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Contents.Event;
+using JHchoi.Contents.Event;
 
 public class GameOctopus : MonoBehaviour
 {

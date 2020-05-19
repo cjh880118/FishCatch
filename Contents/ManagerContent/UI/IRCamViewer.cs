@@ -4,7 +4,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using OpenCVForUnity;
-using CellBig.Models;
+using JHchoi.Models;
 
 public class IRCamViewer : MonoBehaviour
 {
@@ -38,7 +38,7 @@ public class IRCamViewer : MonoBehaviour
 
         transform.parent.Find("OriginOption").Find("Save").GetComponent<Button>().onClick.AddListener(CheckSave);
 
-        CellBig.Module.Detection.DetectionInfoModel info = Model.First<CellBig.Module.Detection.DetectionInfoModel>();
+        JHchoi.Module.Detection.DetectionInfoModel info = Model.First<JHchoi.Module.Detection.DetectionInfoModel>();
         var Resolution = info.CVSettings.OutputResolution;
         _calibMat = new Mat(Resolution.y, Resolution.x, CvType.CV_8UC3);
         _warpMat = new Mat(Resolution.y, Resolution.x, CvType.CV_8UC3);
@@ -49,17 +49,17 @@ public class IRCamViewer : MonoBehaviour
 
     private void OnEnable()
     {
-        Message.AddListener<CellBig.Module.Detection.CV.Output.CalibMat>(ProcessCalibMat);
-        Message.AddListener<CellBig.Module.Detection.CV.Output.WarpMat>(ProcessWarpMat);
+        Message.AddListener<JHchoi.Module.Detection.CV.Output.CalibMat>(ProcessCalibMat);
+        Message.AddListener<JHchoi.Module.Detection.CV.Output.WarpMat>(ProcessWarpMat);
     }
 
     private void OnDisable()
     {
-        Message.RemoveListener<CellBig.Module.Detection.CV.Output.CalibMat>(ProcessCalibMat);
-        Message.RemoveListener<CellBig.Module.Detection.CV.Output.WarpMat>(ProcessWarpMat);
+        Message.RemoveListener<JHchoi.Module.Detection.CV.Output.CalibMat>(ProcessCalibMat);
+        Message.RemoveListener<JHchoi.Module.Detection.CV.Output.WarpMat>(ProcessWarpMat);
     }
 
-    private void ProcessCalibMat(CellBig.Module.Detection.CV.Output.CalibMat mat)
+    private void ProcessCalibMat(JHchoi.Module.Detection.CV.Output.CalibMat mat)
     {
         if (_calibMat != null)
         {
@@ -68,7 +68,7 @@ public class IRCamViewer : MonoBehaviour
         }
     }
 
-    private void ProcessWarpMat(CellBig.Module.Detection.CV.Output.WarpMat mat)
+    private void ProcessWarpMat(JHchoi.Module.Detection.CV.Output.WarpMat mat)
     {
         if(_warpMat!= null)
             mat.Value.copyTo(_warpMat);

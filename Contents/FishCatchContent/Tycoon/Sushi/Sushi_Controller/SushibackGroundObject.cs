@@ -1,5 +1,5 @@
-﻿using CellBig.Constants.FishCatch;
-using CellBig.UI.Event;
+﻿using JHchoi.Constants.FishCatch;
+using JHchoi.UI.Event;
 using UnityEngine;
 
 public class SushibackGroundObject : ITycoonBackGroundObject

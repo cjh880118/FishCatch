@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 
-namespace CellBig.Common
+namespace JHchoi.Common
 {
 	public static class ShaderHelper
 	{

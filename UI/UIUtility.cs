@@ -2,10 +2,10 @@
 using UnityEngine.UI;
 using UnityEngine.Events;
 using System.Collections;
-using CellBig.Common;
+using JHchoi.Common;
 
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
 	public class UIUtility : MonoSingleton<UIUtility>
 	{

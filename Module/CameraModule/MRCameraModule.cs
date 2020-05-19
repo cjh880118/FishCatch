@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig.UI;
+using JHchoi.UI;
 
-namespace CellBig.Module
+namespace JHchoi.Module
 {
     public class MRCameraModule : IModule
     {

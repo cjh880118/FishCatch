@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using CellBig.Models;
-using CellBig.Common;
-using CellBig.UI.Event;
+using JHchoi.Models;
+using JHchoi.Common;
+using JHchoi.UI.Event;
 
-namespace CellBig.UI.Event
+namespace JHchoi.UI.Event
 {
     public class OptionReset : Message
     {
@@ -15,7 +15,7 @@ namespace CellBig.UI.Event
 }
 
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
     public class IRCameraSensorSettingDialog : IDialog
     {
@@ -76,8 +76,8 @@ namespace CellBig.UI
 
         void SaveAction()
         {
-            Message.Send<CellBig.Module.Detection.SaveSettings>(new CellBig.Module.Detection.SaveSettings());
-            Message.Send<CellBig.Module.VideoDevice.SaveSettings>(new CellBig.Module.VideoDevice.SaveSettings());
+            Message.Send<JHchoi.Module.Detection.SaveSettings>(new JHchoi.Module.Detection.SaveSettings());
+            Message.Send<JHchoi.Module.VideoDevice.SaveSettings>(new JHchoi.Module.VideoDevice.SaveSettings());
         }
 
         void ExitDialog()

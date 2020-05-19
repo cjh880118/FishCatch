@@ -2,10 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
-using CellBig.Contents;
+using JHchoi.Contents;
 
 
-namespace CellBig.Scene
+namespace JHchoi.Scene
 {
 	// 해당 씬을 구성하는 역할을 한다.
 	// 씬의 구성은 씬에서 사용하는 UI를 로드하고 씬에 사용될 Prefab 등을 로드하는 것을 기본으로 한다.

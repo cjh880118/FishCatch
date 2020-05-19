@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace CellBig.Module.Detection.CV
+namespace JHchoi.Module.Detection.CV
 {
     public class NerfGunBuilder : IGraphBuilder<DetectionGraph>
     {

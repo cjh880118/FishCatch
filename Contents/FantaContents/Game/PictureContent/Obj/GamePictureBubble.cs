@@ -2,8 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using OpenCVForUnity;
-using CellBig.Models;
-using CellBig.Contents.Event;
+using JHchoi.Models;
+using JHchoi.Contents.Event;
 
 public class GamePictureBubble : MonoBehaviour
 {
@@ -76,7 +76,7 @@ public class GamePictureBubble : MonoBehaviour
         // 옮기기
         //Scene_Game_Picture.I.m_pGame.m_pParticleMng.Create("Clear");
         FxCreate(ClearFx);
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Picture_Clear);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Picture_Clear);
         Message.Send<PictureBubbleTagIn>(new PictureBubbleTagIn());
         yield return new WaitForSeconds(4.0f);
         Message.Send<PictureBubbleTagOut>(new PictureBubbleTagOut());

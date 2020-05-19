@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.IO;
 
 
-namespace CellBig
+namespace JHchoi
 {
 	// Loaded assetBundle contains the references count which can be used to unload dependent assetBundles automatically.
 	public class LoadedAssetBundle

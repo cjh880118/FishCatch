@@ -4,10 +4,10 @@ using System;
 using UnityEngine;
 using UnityEngine.UI;
 using OpenCVForUnity;
-using CellBig.Models;
-using CellBig.Module.VideoDevice;
+using JHchoi.Models;
+using JHchoi.Module.VideoDevice;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     public class ImageRectPointControll : MonoBehaviour
     {

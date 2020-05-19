@@ -13,7 +13,7 @@ using OpenCVForUnity;
 using UnityEditor;
 #endif
 
-namespace CellBig.Module.VideoDevice
+namespace JHchoi.Module.VideoDevice
 {
     public class VideoDeviceModule : IModule, ISerializationCallbackReceiver
     {

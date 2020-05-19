@@ -1,9 +1,9 @@
 ﻿using System;
 using UnityEngine;
 using System.Collections.Generic;
-using CellBig.Constants;
+using JHchoi.Constants;
 
-namespace CellBig.Models
+namespace JHchoi.Models
 {
     public class LocalizingInfo
     {

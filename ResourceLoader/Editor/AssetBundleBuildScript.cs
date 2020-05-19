@@ -5,7 +5,7 @@ using System.IO;
 using System;
 
 
-namespace CellBig
+namespace JHchoi
 {
     public static class AssetBundleBuildScript
     {

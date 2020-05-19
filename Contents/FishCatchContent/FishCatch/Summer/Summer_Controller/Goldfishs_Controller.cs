@@ -1,16 +1,16 @@
-﻿using CellBig;
-using CellBig.Constants;
-using CellBig.Constants.FishCatch;
-using CellBig.Models;
-using CellBig.Module.Detection.CV.Output;
-using CellBig.UI.Event;
+﻿using JHchoi;
+using JHchoi.Constants;
+using JHchoi.Constants.FishCatch;
+using JHchoi.Models;
+using JHchoi.Module.Detection.CV.Output;
+using JHchoi.UI.Event;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class Goldfishs_Controller : IFish_Controller
     {

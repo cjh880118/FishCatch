@@ -57,7 +57,7 @@ public class GameWasteTrashObj : MonoBehaviour
             else
                 GameObjectArray[i].SetActive(false);
         }
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Waste_Hit);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Waste_Hit);
         
     }
 

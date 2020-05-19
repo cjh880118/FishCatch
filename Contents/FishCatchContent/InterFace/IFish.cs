@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.UI.Event;
+using JHchoi.UI.Event;
 using DG.Tweening;
 using System;
 using Random = UnityEngine.Random;
-using CellBig;
-using CellBig.Constants;
-using CellBig.Constants.FishCatch;
+using JHchoi;
+using JHchoi.Constants;
+using JHchoi.Constants.FishCatch;
 
 public abstract class IFish : MonoBehaviour
 {

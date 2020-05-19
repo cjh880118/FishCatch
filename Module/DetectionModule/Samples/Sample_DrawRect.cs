@@ -2,9 +2,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 using OpenCVForUnity;
-using CellBig.Module.VideoDevice;
+using JHchoi.Module.VideoDevice;
 
-namespace CellBig.Module.Detection.Samples
+namespace JHchoi.Module.Detection.Samples
 {
     public class Sample_DrawRect : MonoBehaviour
     {

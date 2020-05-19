@@ -1,7 +1,7 @@
-﻿using CellBig.Constants.FishCatch;
-using CellBig.UI.Event;
+﻿using JHchoi.Constants.FishCatch;
+using JHchoi.UI.Event;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class Piranhas_Controller : IFish_Controller
     {

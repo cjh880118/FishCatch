@@ -1,11 +1,11 @@
-﻿using CellBig.Common;
-using CellBig.UI.Event;
+﻿using JHchoi.Common;
+using JHchoi.UI.Event;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
     public class CatchDialog : IDialog
     {

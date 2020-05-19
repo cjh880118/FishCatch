@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using CellBig.Contents.Event;
+using JHchoi.Contents.Event;
 
 public class GameOctopusVaseObj : MonoBehaviour
 {
@@ -82,8 +82,8 @@ public class GameOctopusVaseObj : MonoBehaviour
 
     IEnumerator Cor_Move()
     {
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Octopus_InitPot);
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Octopus_Move);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Octopus_InitPot);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Octopus_Move);
         bool bColor = false;
         for (float i = 0.0f; i < m_fBreakTime; i += Time.deltaTime)
         {
@@ -109,7 +109,7 @@ public class GameOctopusVaseObj : MonoBehaviour
 
     IEnumerator Cor_Die(bool bHit)
     {
-        CellBig.SoundManager.Instance.PlaySound((int)CellBig.SoundType_GameFX.Octopus_Break);
+        JHchoi.SoundManager.Instance.PlaySound((int)JHchoi.SoundType_GameFX.Octopus_Break);
         m_pCollider.enabled = false;
         m_pWhriParticle.gameObject.SetActive(false);
         m_pVase.SetActive(false);
@@ -130,7 +130,7 @@ public class GameOctopusVaseObj : MonoBehaviour
 
     public void HitPoint(Vector3 hitpoint)
     {
-        Message.Send<CellBig.UI.Event.ADDScore>(new CellBig.UI.Event.ADDScore(100));
+        Message.Send<JHchoi.UI.Event.ADDScore>(new JHchoi.UI.Event.ADDScore(100));
         TextControl.transform.parent.position = hitpoint;
         TextControl.SetScore(100);
     }

@@ -1,15 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using CellBig.Models;
-using CellBig.Constants;
-using CellBig.Module.Detection.CV.Output;
+using JHchoi.Models;
+using JHchoi.Constants;
+using JHchoi.Module.Detection.CV.Output;
 using System;
-using CellBig.UI.Event;
-using CellBig.Constants.FishCatch;
+using JHchoi.UI.Event;
+using JHchoi.Constants.FishCatch;
 using UnityEngine.SceneManagement;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public abstract class IContentManager : IContent
     {
@@ -113,7 +113,7 @@ namespace CellBig.Contents
             Debug.Log("타임오버");
             var pcm = Model.First<PlayContentModel>();
             IContent.RequestContentExit(pcm.GetCurrentContent().ContentName);
-            Message.Send<CellBig.UI.Event.LoadImageChangeMsg>(new LoadImageChangeMsg());
+            Message.Send<JHchoi.UI.Event.LoadImageChangeMsg>(new LoadImageChangeMsg());
             Message.Send<FadeInMsg>(new FadeInMsg());
             yield return new WaitForSeconds(0.5f);
             string nextContent = pcm.GetNextContentName();

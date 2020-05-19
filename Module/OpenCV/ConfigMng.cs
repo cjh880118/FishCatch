@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using CellBig.Common;
+using JHchoi.Common;
 
 public class Config_GameSelect
 {

@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
-using CellBig.Constants;
+using JHchoi.Constants;
 
 
-namespace CellBig.UI.Event
+namespace JHchoi.UI.Event
 {
     public class FadeInMsg : Message
     {

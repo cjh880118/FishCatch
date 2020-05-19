@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameWasteTrash : MonoBehaviour
 {
-    public CellBig.Common.ObjectPool ObjectPool;
+    public JHchoi.Common.ObjectPool ObjectPool;
     public List<GameObject> TrashObjList = new List<GameObject>();
 
     public int SpawnSizeMin = 1;

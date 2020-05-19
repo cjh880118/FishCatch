@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     [Serializable]
     public class BaseSettings : ISerializationCallbackReceiver

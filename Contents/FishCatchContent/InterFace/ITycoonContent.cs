@@ -1,5 +1,5 @@
-﻿using CellBig.Constants.FishCatch;
-using CellBig.UI.Event;
+﻿using JHchoi.Constants.FishCatch;
+using JHchoi.UI.Event;
 using DG.Tweening;
 using System;
 using System.Collections;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public abstract class ITycoonContent : IContentManager
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CellBig.Contents
+namespace JHchoi.Contents
 {
     public class ManagerContentUILoader : IContentUILoader
     {

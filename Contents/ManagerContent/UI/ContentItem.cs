@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using CellBig;
-using CellBig.Models;
+using JHchoi;
+using JHchoi.Models;
 
 public class ContentItem : MonoBehaviour
 {
@@ -75,20 +75,20 @@ public class ContentItem : MonoBehaviour
 
     public void ToggleChange()
     {
-        Message.Send<CellBig.UI.Event.ContentToggleChange>(new CellBig.UI.Event.ContentToggleChange(itemIndex, Check.isOn ));
+        Message.Send<JHchoi.UI.Event.ContentToggleChange>(new JHchoi.UI.Event.ContentToggleChange(itemIndex, Check.isOn ));
     }
 
     public void UpButtonDown()
     {
         if (itemIndex < 0)
             return;
-        Message.Send<CellBig.UI.Event.ContentListChange>(new CellBig.UI.Event.ContentListChange( itemIndex , itemIndex-1));
+        Message.Send<JHchoi.UI.Event.ContentListChange>(new JHchoi.UI.Event.ContentListChange( itemIndex , itemIndex-1));
     }
 
     public void DownButtonDown()
     {
         if (itemIndex < 0)
             return;
-        Message.Send<CellBig.UI.Event.ContentListChange>(new CellBig.UI.Event.ContentListChange(itemIndex, itemIndex +1));
+        Message.Send<JHchoi.UI.Event.ContentListChange>(new JHchoi.UI.Event.ContentListChange(itemIndex, itemIndex +1));
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CellBig.Constants.FishCatch
+namespace JHchoi.Constants.FishCatch
 {
     public enum FishGameMode
     {

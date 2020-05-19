@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using CellBig.Models;
-using CellBig.Common;
-using CellBig.UI.Event;
+using JHchoi.Models;
+using JHchoi.Common;
+using JHchoi.UI.Event;
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
     public class CommonManagerDialog : IManagerDialog
     {
@@ -136,8 +136,8 @@ namespace CellBig.UI
             cm.SavePlayContentList();
             cm.SaveContentsSetting();
             string content = cm.GetCurrentContent().ContentName;
-            CellBig.Contents.IContent.RequestContentEnter(content);
-            CellBig.Contents.IContent.RequestContentEnter<CellBig.Contents.PlayTimeContent>();
+            JHchoi.Contents.IContent.RequestContentEnter(content);
+            JHchoi.Contents.IContent.RequestContentEnter<JHchoi.Contents.PlayTimeContent>();
             IDialog.RequestDialogExit<CommonManagerDialog>();
         }
 

@@ -2,10 +2,10 @@
 using System.IO;
 using UnityEngine;
 using OpenCVForUnity;
-using CellBig.Common;
-using CellBig.Models;
+using JHchoi.Common;
+using JHchoi.Models;
 
-namespace CellBig.Module.Detection.CV
+namespace JHchoi.Module.Detection.CV
 {
     public enum DiffMethod
     {

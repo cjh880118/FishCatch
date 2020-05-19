@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-namespace CellBig.UI
+namespace JHchoi.UI
 {
     public class ScreenGlobalDialog : IDialog
     {

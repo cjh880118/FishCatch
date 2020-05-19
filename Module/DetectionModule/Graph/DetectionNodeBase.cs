@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace CellBig.Module.Detection
+namespace JHchoi.Module.Detection
 {
     public abstract class DetectionNodeBase<TMessage, TInput, TOutput> : IDetectionNode
         where TMessage : OutputMessageBase<TOutput>, new()
