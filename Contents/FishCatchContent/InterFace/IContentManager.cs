@@ -13,7 +13,7 @@ namespace JHchoi.Contents
 {
     public abstract class IContentManager : IContent
     {
-        public float tempDistance = 0.15f;
+        public float catchDistance = 0.15f;
         protected CommonModel cm;
         protected FishModel fm;
         protected List<GameObject> listGameObject = new List<GameObject>();

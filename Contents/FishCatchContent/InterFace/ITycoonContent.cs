@@ -400,7 +400,7 @@ namespace JHchoi.Contents
                     Log.Instance.log(logFomat);
 
                     //잡혓을 뷰포트상 거리로 판단
-                    if (distance <= tempDistance && o.gameObject.activeSelf && !o.isMissObj)
+                    if (distance <= catchDistance && o.gameObject.activeSelf && !o.isMissObj)
                     {
                         Vector3 rectWorld = Camera.main.ViewportToWorldPoint(vecPos);
                         o.transform.position = rectWorld;

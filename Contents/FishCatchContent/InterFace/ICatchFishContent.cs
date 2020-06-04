@@ -61,11 +61,6 @@ namespace JHchoi.Contents
             }
         }
 
-        protected override IEnumerator LoadObject()
-        {
-            throw new System.NotImplementedException();
-        }
-
         protected override IEnumerator RectInputDelay()
         {
             while (true)
@@ -98,7 +93,7 @@ namespace JHchoi.Contents
                     Log.Instance.log(logFomat);
 
                     //잡혓을 뷰포트상 거리로 판단
-                    if (distance <= tempDistance)
+                    if (distance <= catchDistance)
                     {
                         Vector3 rectWorld = Camera.main.ViewportToWorldPoint(vecPos);
                         o.transform.position = Vector3.Lerp(o.transform.position, rectWorld, Time.deltaTime * 200f);
