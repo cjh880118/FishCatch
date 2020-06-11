@@ -155,7 +155,6 @@ namespace JHchoi.Contents
             RespawnSoundPlay();
         }
 
-
         IEnumerator ResetMissionTimer()
         {
             yield return new WaitForSeconds(cm.GetResetTime(pcm.GetCurrentContent().ContentName));
@@ -194,63 +193,6 @@ namespace JHchoi.Contents
                     rndFood = Random.RandomRange(0, listFood.Count);
                 } while (listFood[rndFood].gameObject.activeSelf && mapActiveFood.ContainsKey(rndFood));
 
-
-
-
-                /////////////////////////////////////
-                ////todo..
-                ///
-                //while (true)
-                //{
-                //    bool isContain = false;
-                //    rndFood = Random.RandomRange(0, listFood.Count);
-
-                //    for (int i = 0; i < arrayPlayer.Length; i++)
-                //    {
-                //        if (mapPlayerMissionFood.ContainsKey(i))
-                //        {
-                //            if (listFood[rndFood].GetFoodType() == mapPlayerMissionFood[i])
-                //            {
-                //                isContain = true;
-                //                break;
-                //            }
-                //        }
-                //    }
-
-                //    if (!listFood[rndFood].gameObject.activeSelf && !mapActiveFood.ContainsKey(rndFood) && isContain)
-                //        break;
-                //}
-                //////
-                ///
-
-                //listFood              //전체 음식 리스트
-                //mapActiveFood         //활성화 음식
-                //mapPlayerMissionFood  //플레이어 미션
-
-                //for (int i = 0; i < arrayPlayer.Length; i++)
-                //{
-                //    if (mapPlayerMissionFood.ContainsKey(i))
-                //    {
-                //        for(int j = 0; j < listFood.Count; j++)
-                //        {
-                //            if(mapActiveFood.ContainsKey(j))
-                //            {
-                //                if(mapActiveFood[j]  == mapPlayerMissionFood[i])
-                //                {
-
-                //                }
-                //            }
-                //        }
-
-                //        //if (listFood[rndFood].GetFoodType() == mapPlayerMissionFood[i])
-                //        //{
-                //        //    isContain = true;
-                //        //    break;
-                //        //}
-                //    }
-                //}
-
-                ///////////////////////////
                 SetFood(rndFood, plateNum);
                 yield return new WaitForSeconds(0.15f);
             }
@@ -332,8 +274,8 @@ namespace JHchoi.Contents
                     if (!listFood[i].gameObject.activeSelf)
                         continue;
 
-                    Vector2 fishViewport = Camera.main.WorldToViewportPoint(listFood[i].transform.position);
-                    if (Vector3.Distance(vec2List[0], fishViewport) < 0.1f)
+                    Vector2 foodViewport = Camera.main.WorldToViewportPoint(listFood[i].transform.position);
+                    if (Vector3.Distance(vec2List[0], foodViewport) < 0.1f)
                     {
                         //근쳐에 잡을수 없고 
                         if (!listFood[i].isCapturePossible && listFood[i].gameObject.activeSelf)
