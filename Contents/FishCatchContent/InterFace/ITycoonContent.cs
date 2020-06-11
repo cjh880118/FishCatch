@@ -297,8 +297,8 @@ namespace JHchoi.Contents
                         if (!listFood[i].gameObject.activeSelf)
                             continue;
 
-                        Vector2 fishViewport = Camera.main.WorldToViewportPoint(listFood[i].transform.position);
-                        float distance = Vector2.Distance(vec2List[0], fishViewport);
+                        Vector2 foodViewport = Camera.main.WorldToViewportPoint(listFood[i].transform.position);
+                        float distance = Vector2.Distance(vec2List[0], foodViewport);
                         if (distance < cm.GetCatchDistance(pcm.GetCurrentContent().ContentName))
                         {
                             if (minDistance == 0)
