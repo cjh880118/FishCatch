@@ -14,6 +14,7 @@ namespace JHchoi.Contents
         {
             SoundManager.Instance.StopSound((int)SoundFishCatch.Bug_Fail);
         }
+
         protected override void FishArrive(FishArriveMsg msg)
         {
             if (msg.fishType == (FishType)fishIndexNum)

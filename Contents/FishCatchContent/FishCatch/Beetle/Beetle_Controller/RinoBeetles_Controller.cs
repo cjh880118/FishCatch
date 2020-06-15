@@ -10,7 +10,6 @@ namespace JHchoi.Contents
 {
     public class RinoBeetles_Controller : IFish_Controller
     {
-     
         protected override void MissSoundPlay()
         {
             SoundManager.Instance.StopSound((int)SoundFishCatch.Bug_Fail);

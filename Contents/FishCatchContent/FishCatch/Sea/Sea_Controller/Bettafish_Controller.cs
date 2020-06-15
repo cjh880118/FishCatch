@@ -33,27 +33,12 @@ public class Bettafish_Controller : IFish
 
             float rotateTime = Time.deltaTime * 5;
             float moveTime = Time.deltaTime * 0.3f * rndSpeed;
-            //테스트
-            //Debug.DrawRay(this.gameObject.transform.position, (this.gameObject.transform.forward) * 0.1f, Color.red);
-            //if(!Physics.Raycast(this.gameObject.transform.position, this.gameObject.transform.forward, 0.1f, layerMask))
-            //{
-            //    //float rotateTime = Time.deltaTime * 5;
-            //    //float moveTime = Time.deltaTime * 0.3f * rndSpeed;
-            //    this.gameObject.transform.rotation = Quaternion.Lerp(this.gameObject.transform.rotation, Quaternion.LookRotation(dir), rotateTime);
-            //    this.gameObject.transform.position = Vector3.Lerp(this.gameObject.transform.position, target, moveTime);
-            //}
-            //else
-            //{
-            //    this.gameObject.transform.rotation = Quaternion.Lerp(this.gameObject.transform.rotation, Quaternion.LookRotation(dir), rotateTime);
-            //}
-            //
             this.gameObject.transform.rotation = Quaternion.Lerp(this.gameObject.transform.rotation, Quaternion.LookRotation(dir), rotateTime);
             this.gameObject.transform.position = Vector3.Lerp(this.gameObject.transform.position, target, moveTime);
         }
 
         if (isCapturePossible)
             Message.Send<FishArriveMsg>(new FishArriveMsg(fishType, index, targetIndex));
-        //return base.MoveTarget(target, targetIndex);
     }
 
     protected override void CatchSoundPlay()

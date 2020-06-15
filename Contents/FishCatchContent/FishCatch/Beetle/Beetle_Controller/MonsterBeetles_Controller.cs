@@ -10,7 +10,6 @@ namespace JHchoi.Contents
 {
     public class MonsterBeetles_Controller : IFish_Controller
     {
-     
         protected override void MissSoundPlay()
         {
             SoundManager.Instance.StopSound((int)SoundFishCatch.Bug_Fail);
@@ -33,6 +32,5 @@ namespace JHchoi.Contents
             if (msg.fishType == (FishType)fishIndexNum)
                 base.CatchPlateSuccess(msg);
         }
-
     }
 }
