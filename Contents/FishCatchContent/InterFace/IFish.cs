@@ -95,7 +95,6 @@ public abstract class IFish : MonoBehaviour
             return;
 
         CoroutineCheckStop(corCatch);
-        //int a = CatchPossibleCheck();
         if (!CatchPossibleCheck())
         {
             Debug.Log("못잡어");
@@ -153,13 +152,11 @@ public abstract class IFish : MonoBehaviour
     {
         int layerMask = 1 << 22;
         RaycastHit hit;
-        BoxCollider boxCollider = this.gameObject.GetComponent<BoxCollider>();
         Debug.DrawRay(this.gameObject.transform.position, Vector3.up * rayDistance, Color.red);
         if (Physics.Raycast(this.gameObject.transform.position, Vector3.up, out hit, Mathf.Infinity, layerMask))
             return false;
         else
             return true;
-
     }
 
     protected IEnumerator CatchDelay()
